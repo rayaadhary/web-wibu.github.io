@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/duke-charming-demo');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+}
+
+header.navbar-container {
+  width: 100%;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  padding-block: 1rem;
+  justify-content: space-around;
+  z-index: 999;
+  background-color: #fbf7ee;
+}
+
+header.navbar-container .logo img {
+  width: 150px;
+}
+
+header.navbar-container .nav-list ul {
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem 1rem;
+}
+
+header.navbar-container .nav-list li {
+  list-style-type: none;
+}
+
+header.navbar-container .nav-list li a {
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: black;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.2 ease-in-out;
+}
+
+header.navbar-container .nav-list li:hover a {
+  color: #772207;
+  font-size: 1.1rem;
+}
+
+main {
+}
+
+main #home {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main #home > .home-description h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  color: #772207;
+  margin: 0;
+  font-family: 'Duke Charming DEMO', sans-serif;
+}
+
+main #home > .home-description p {
+  margin-bottom: 2rem;
+  padding-right: 3rem;
+  text-align: justify;
+}
+
+main #home > .home-description button {
+  background-color: #772207;
+  color: white;
+  border: none;
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+main #home > .home-description button:hover {
+  background-color: #5e1a06;
+}
+
+main #home .home-description {
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border-top: 2px solid gray;
+  border-right: 2px solid gray;
+  border-bottom: 2px solid gray;
+  padding-left: 2rem;
+}
+
+main #home .anime-popular {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+}
+
+main #home > .anime-popular h2 {
+  font-weight: 500;
+  font-size: 2rem;
+  font-family: 'Duke Charming DEMO', sans-serif;
+}
+
+main #home > .anime-popular button {
+  margin-bottom: 20px;
+  background-color: #fbf7ee;
+  border: none;
+  padding: 0.5rem 0.5rem;
+  border: 1px solid gray;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+main #home > .anime-popular button:hover {
+  background-color: #eae4d9;
+}
+
+aside {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem 0;
+}
+
+aside .aside-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+aside .aside-container h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #772207;
+  margin: 0;
+  font-family: 'Duke Charming DEMO', sans-serif;
+}
+
+aside .aside-container p {
+  text-align: center;
+  max-width: 400px;
+}
+
+aside .aside-container button {
+  background-color: #fbf7ee;
+  border: none;
+  color: #772207;
+  padding: 0.5rem 1rem;
+  border: 1px solid #772207;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+aside .aside-container button:hover {
+  background-color: #772207;
+  color: white;
+}
+
+footer .footer-container {
+  display: flex;
+  align-items: center;
+  background-color: #fbf7ee;
+  padding: 0.5rem 3rem;
+  border-top: 2px solid gray;
+  justify-content: space-between;
+}
+
+footer .footer-container > .footer-description {
+}
+
+footer .footer-container .footer-list > ul {
+  display: flex;
+  gap: 2rem 1rem;
+}
+
+footer .footer-container .footer-list li {
+  list-style-type: none;
+}
+
+footer .footer-container .footer-list ul a {
+  text-decoration: none;
+  color: black;
+}
+
+footer .footer-container .footer-list ul a:hover {
+  color: #772207;
+  font-size: 1.1rem;
+}
