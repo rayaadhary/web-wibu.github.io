@@ -149,6 +149,11 @@ main aside .aside-container {
   flex: 1;
 }
 
+main aside .aside-container img {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
 main aside .aside-container h1 {
   font-size: 3rem;
   font-weight: 500;
